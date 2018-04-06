@@ -1,0 +1,47 @@
+<div class="spacer-16"></div>
+<div class="title-row">
+    <div class="row">
+        <div class="spacer-16 hidden-xs"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4">
+            <a class="logo" title="Roy Lake Resort &amp; Lodge, LLC." href="/">
+                <img class="img-responsive logo" src="/img/rlr_webpage_logo_small2.png" alt="Roy Lake Resort &amp; Lodge, LLC.">
+            </a>
+        </div>  
+        <div class="col-xs-12 col-sm-8">
+            <div>
+                <a class="page-title hidden-xs" href="//www.roylakeresort.com">Roy Lake Resort &amp; Lodge, LLC.</a>
+            </div>
+            <nav class="navbar" role="navigation">
+                <div class="">
+                    <div class="navbar-default navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            Menu
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+            
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Home</a></li>
+                            {% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
+                            {% for my_page in navigation_pages %}
+                            {% if my_page.title %}
+                            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="spacer-16 hidden-xs"></div>
+    </div>
+</div>

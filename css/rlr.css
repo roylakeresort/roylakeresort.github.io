@@ -1,0 +1,218 @@
+body {
+	font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    padding: 0px;
+	margin: 0px;
+	/*overflow: hidden;
+	background-color: #ffffff;
+	background-size: cover;
+    background-repeat: no-repeat;*/
+    color: #444444;
+}
+img.logo {
+    padding-left: 1.5em;
+}
+a, a:visited {
+	color: #0072c6;
+	text-decoration: none;
+}
+a:hover {
+	color: #c67000;
+	text-decoration: none;
+}
+a.page-title, a:visited.page-title {
+    white-space: nowrap;
+    line-height: 1.15em;
+    font-size: 2.5em;
+    color: #262626;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-nav li a, .navbar-nav li a:visited {
+    color: #666666;
+    font-weight: 400;
+}
+.navbar-nav li a, .navbar-nav li a:visited {
+    color: #333333;
+    font-weight: 400;
+}
+.background-image {
+    min-width: 100%;
+    height: 100%;
+    background: url("/img/roylake_background.jpg") top center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content li {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+}
+.content li li, .content li li li, .content li li li li {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+}
+
+/*.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5b707d;
+}
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+img {
+    min-width: 150px;
+}*/
+.title-row {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.title {
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    color: #262626;
+    text-transform: none;
+}
+.spacer-16 {
+    height: 16px;
+}
+.container {
+	margin: 20px 5% 20px 5%;
+	/*min-width: 921px;*/
+}
+.content {
+	background-color: rgba(255, 255, 255, 0.85);
+	/*display: table-cell;
+	min-width: 630px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0.1px;
+}
+.content h1 {
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 2.3em;
+    line-height: 1.4;
+    color: #0072c6;
+    font-weight: 200;
+}
+.content h2 {
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.9em;
+    color: #0072c6;
+    line-height: 1.4;
+    font-weight: 150;
+}
+.content h3 {
+    color: #00485b;
+    font-size: 1.46em;
+    line-height: 1.4;
+}
+.content p {
+    font-size: 13pt;
+}
+.strong {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.warning-bright {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ed0033;
+}
+.warning {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #b20026;
+}
+.underline {
+    text-decoration: underline;
+}
+.italic {
+    font-style: italic;
+}
+.content .small {
+    font-size: 0.95em;
+}
+.blue {
+    color: #0072c6;
+}
+.larger {
+    font-size: 1.2em;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.footer {
+	/*position: absolute;*/
+	bottom: 0em;
+	min-height: 3em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: .5em;
+	width: 100%;
+	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.footer p {
+    text-align: center;
+}
+.img-polaroid {
+	-ms-name: "Light border";
+	padding: 6px;
+	padding-bottom: 33px;
+	background-color: #e6e6e6;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #ababab;
+	border-left: 1px solid #c6c6c6;
+	border-right: 1px solid #ababab;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+table {
+    background-color: #F1F4F7;
+    /*background-color: rgba(255, 255, 255, 0.55);*/
+}
+table.table-3-column td {
+    width: 33.3%;
+}
+table.table-4-column td {
+    width: 25%;
+}
+table.table-5-column td {
+    width: 20%;
+}
+.no-border {
+    border: none;
+}
+th {
+    background-color: #444444;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 4px 4px;
+}
+tr {
+    border-top: 1px solid #92c0e0;
+    border-bottom: 1px solid #92c0e0;
+}
+td {
+    vertical-align: top;
+    padding: 7px 5px 6px;
+}
+.content td h3 {
+    line-height: 1.8em;
+    margin: auto;
+}
+.content td p.strong {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin: auto;
+}
+.content td p {
+    font-size: 0.9em;
+}
+/*
+h1 { font-size: 2.77em; }
+h2 { font-size: 1.46em; }
+*/

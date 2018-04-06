@@ -1,0 +1,30 @@
+<div class="footer">
+        <p><a href="tel:16054485498">(605) 448-5498</a> ~ <a href="mailto:info@RoyLakeResort.com">info@RoyLakeResort.com</a>&nbsp;~&nbsp;<a href="https://www.google.com/maps/place/Roy+Lake+Resort+%26+Lodge/@45.7067479,-97.4526778,15z/data=!4m2!3m1!1s0x0:0x48286cccfbbf7d5" target="_blank">11571 Northside Dr, Lake City, SD 57247</a></p>
+        <p>&copy;2017 Roy Lake Resort &amp; Lodge, LLC.</p>
+        <p>
+            <a href="http://www.bbb.org/nebraska/business-reviews/hunting-and-fishing-resorts-services/roy-lake-resort-and-lodge-in-lake-city-sd-300034223" target="_blank"><img class="ms-rtePosition-4" alt="BBB Accredited Business" src="/img/bbbAccredBus_Blue_JPG_Horizontal.jpg" style="margin:5px;" data-themekey="#"></a>&nbsp;
+        </p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        setImageClick();
+    });
+
+    function setImageClick() {
+        $('img').each(function(i) {
+            var img = $(this);
+            if (!img.hasClass('logo')) {
+                img.addClass('cursor-pointer');
+                img.click(function() {
+                    /*var src = img.attr('src');
+                    if (src.startsWith('/')) {
+                        src = 'http://www.roylakeresort.com' + src;
+                    }
+                    alert(src);*/
+                    window.location = img.attr('src');
+                    return false; 
+                });
+            }
+        });
+    }
+</script>
